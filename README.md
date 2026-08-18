@@ -7,7 +7,7 @@
 <div align="center">
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/usekaneo/kaneo/ci.yml?branch=main)](https://github.com/Unity-Billal-mesloub/kaneo/actions)
-[![Sponsors](https://img.shields.io/github/sponsors/andrejsshell)](https://github.com/sponsors/andrejsshell)
+[![Sponsors](https://img.shields.io/github/sponsors/Unity-Billal-mesloub)](https://github.com/sponsors/Unity-Billal-mesloub)
 
 </div>
 
@@ -18,8 +18,6 @@
     <a href="https://kaneo.app">Website</a>
     <span> | </span>
     <a href="https://cloud.kaneo.app">Cloud</a>
-    <span> | </span>
-    <a href="https://discord.gg/rU4tSyhXXU">Discord</a>
   </h3>
 </div>
 
