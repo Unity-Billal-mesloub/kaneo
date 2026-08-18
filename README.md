@@ -6,9 +6,7 @@
 
 <div align="center">
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/usekaneo/kaneo/ci.yml?branch=main)](https://github.com/usekaneo/kaneo/actions)
-[![Discord](https://img.shields.io/discord/1326250681530843178?color=7389D8&label=&logo=discord&logoColor=ffffff)](https://discord.gg/rU4tSyhXXU)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/usekaneo/kaneo/ci.yml?branch=main)](https://github.com/Unity-Billal-mesloub/kaneo/actions)
 [![Sponsors](https://img.shields.io/github/sponsors/andrejsshell)](https://github.com/sponsors/andrejsshell)
 
 </div>
@@ -46,17 +44,11 @@ We believe the best tools are **invisible**. They should amplify your team's nat
 
 Learn more about Kaneo's features and capabilities in our [documentation](https://kaneo.app/docs/core).
 
-## Sponsors
-
-Kaneo is open source. If you find it useful, consider [sponsoring the project](https://github.com/sponsors/andrejsshell) to help support ongoing development.
-
-<!-- sponsors --><a href="https://github.com/danielsada"><img src="https:&#x2F;&#x2F;github.com&#x2F;danielsada.png" width="60px" alt="User avatar: Daniel Sada" /></a><a href="https://github.com/randoneering"><img src="https:&#x2F;&#x2F;github.com&#x2F;randoneering.png" width="60px" alt="User avatar: (justin)randoneering" /></a><a href="https://github.com/floreabogdan"><img src="https:&#x2F;&#x2F;github.com&#x2F;floreabogdan.png" width="60px" alt="User avatar: Bogdan FLOREA" /></a><a href="https://github.com/meruw"><img src="https:&#x2F;&#x2F;github.com&#x2F;meruw.png" width="60px" alt="User avatar: meri" /></a><a href="https://github.com/barbanet"><img src="https:&#x2F;&#x2F;github.com&#x2F;barbanet.png" width="60px" alt="User avatar: Damián Culotta" /></a><!-- sponsors -->
-
 ## Getting Started
 
 ### One-Click Deployment with drim
 
-For straightforward deployments, use [drim](https://github.com/usekaneo/drim) - a CLI tool that handles everything for you:
+For straightforward deployments, use [drim](https://github.com/Unity-Billal-mesloub/drim) - a CLI tool that handles everything for you:
 
 ```bash
 curl -fsSL https://assets.kaneo.app/install.sh | sh
@@ -131,7 +123,7 @@ Want to hack on Kaneo? See our [Environment Setup Guide](ENVIRONMENT_SETUP.md) f
 Quick start:
 ```bash
 # Clone and install dependencies
-git clone https://github.com/usekaneo/kaneo.git
+git clone https://github.com/Unity-Billal-mesloub/kaneo.git
 cd kaneo
 pnpm install
 
@@ -148,32 +140,11 @@ For contributing guidelines, code structure, and development best practices, che
 
 Kaneo has an official [MCP (Model Context Protocol) server](https://kaneo.app/docs/core/integrations/mcp), so AI tools like Claude, Cursor, and other MCP clients can manage your tasks, projects, and labels. Every instance ships a built-in HTTP MCP endpoint at `/api/mcp`, and for stdio clients there is the official [@kaneo/mcp](https://www.npmjs.com/package/@kaneo/mcp) package on npm (`npx -y @kaneo/mcp`).
 
-## Community
-
-- **[Discord](https://discord.gg/rU4tSyhXXU)** - Chat with users and contributors
-- **[GitHub Issues](https://github.com/usekaneo/kaneo/issues)** - Bug reports and feature requests
-- **[Documentation](https://kaneo.app/docs/core)** - Detailed guides, API docs, and tutorials
-
 ## Contributing
 
 We're always looking for help, whether that's:
 - Reporting bugs or suggesting features
 - Improving documentation
 - Contributing code
-- Helping other users on Discord
 
 Check out [CONTRIBUTING.md](CONTRIBUTING.md) for the details on how to get involved.
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-  <img src="https://repobeats.axiom.co/api/embed/3e8367ec2b2350e4fc48662df33c81dac657b833.svg" alt="Repobeats analytics image" />
-</div>
-
-<p align="center">
-  Built with ❤️ by the Kaneo team and <a href="#contributors">contributors</a>
-</p>
